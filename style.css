@@ -13,6 +13,7 @@
 }
 
 body {
+
   font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
@@ -28,6 +29,8 @@ main {
   color: var(--White);
   border-radius: 15px;
   padding: 30px;
+  width: 20%
+
 }
 .heading {
   display: flex;
@@ -41,7 +44,11 @@ main {
   width: 50%;
 }
 
-.heading h3 {
+.heading h1 {
+  font-size: 2.5rem;
+}
+
+.heading h2 {
   color: var(--Green);
   padding: 5% 0 10% 0;
 }
